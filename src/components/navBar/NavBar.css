@@ -1,0 +1,146 @@
+.navBar {
+  width: 100%;
+  height: 10vh;
+  background-color: rgba(0, 0, 0, 0.98);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  z-index: 999;
+}
+
+.navElements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.routeLinks {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.routeLinks ul {
+  list-style: none;
+  display: flex;
+}
+
+.routeLinks ul li {
+  margin-left: 2rem;
+}
+.routeLinks a,
+.routeLinks ul li .link {
+  transition: 0.5s;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.drawer .link, .routeLinks a:hover,
+.routeLinks ul li .link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.centralLogo {
+  margin-left: 20rem;
+  margin-right: 20rem;
+  text-align: center;
+  font-size: x-large;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+}
+
+.navSpace {
+  flex: 1;
+}
+
+.navDrawerBtn{
+  opacity: 1;
+  margin-right: 3rem;
+  margin-left: -3rem;
+}
+
+.menuButton {
+  border-radius: 50%;
+  width: 40px;
+  padding: 0.45rem 0.45rem;
+  margin-left: 0%;
+  cursor: pointer;
+  font-size: 40px;
+  background-color: rgb(37, 33, 33);
+  opacity: 0;
+}
+
+.drawer {
+  height: 100vh;
+  width: 70vw;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.95);
+
+}
+
+.drawer ul {
+  width: 100%;
+  margin-top: 20%;
+  margin-left: 10%;
+  list-style: none;
+}
+
+.drawer ul li {
+  font-size: 20px;
+  margin-top: 5vh;
+  transition: 0.5s;
+}
+
+.navDrawerBtn {
+  opacity: 1;
+  color: white;
+
+}
+
+.link {
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.logo {
+  color: white;
+}
+
+.lien{
+  font-size: 15px;
+  text-decoration: none;
+  color: rgb(143, 143, 143);
+}
+
+@media (max-width : 1320px){
+  .centralLogo {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    ;
+  }
+}
+
+@media (max-width : 990px){
+  .routeLinks{
+    display: none;
+  }
+
+  .menuButton {
+   margin-right: 0rem;
+    opacity: 1;
+  }
+
+  .centralLogo {
+    margin-left: 1rem;
+    margin-right: 3rem;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+  }
+}
+
+
