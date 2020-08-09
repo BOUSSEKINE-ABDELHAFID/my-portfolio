@@ -46,17 +46,33 @@ export default function SwipeableTemporaryDrawer() {
                   contact us
                 </Link>
               </li>
-              <br/><br/><br/><br/><br/><br/>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
               <li>
-                <a href="https://twitter.com/boussekineabde3" className = "lien">Twitter</a>
+                <a href="https://twitter.com/boussekineabde3" className="lien">
+                  Twitter
+                </a>
               </li>
               <li>
-                <a href="https://github.com/BOUSSEKINE-ABDELHAFID" className = "lien">github</a>
+                <a
+                  href="https://github.com/BOUSSEKINE-ABDELHAFID"
+                  className="lien"
+                >
+                  github
+                </a>
               </li>
               <li>
-                <a href="https://web.facebook.com/abdelhafid.boussekine" className = "lien">facebook</a>
+                <a
+                  href="https://web.facebook.com/abdelhafid.boussekine"
+                  className="lien"
+                >
+                  facebook
+                </a>
               </li>
-           
             </ul>
           </div>
         </SwipeableDrawer>

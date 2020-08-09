@@ -5,11 +5,11 @@ import SkillsList from "../components/skillCard/SkillsList";
 
 const Skills = () => {
   return (
-    <div className = "slills">
+    <div className="slills">
       <NavBar />
-        <div className = "skillsContainer">
-        <SkillsList/>
-        </div>
+      <div className="skillsContainer">
+        <SkillsList />
+      </div>
       <Footer />
     </div>
   );
