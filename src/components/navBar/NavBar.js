@@ -58,7 +58,7 @@ class NavBar extends Component {
               </li>
               <li>
                 <NavLink to="/contact" className="link">
-                  contact us
+                  contact 
                 </NavLink>
               </li>
             </ul>
