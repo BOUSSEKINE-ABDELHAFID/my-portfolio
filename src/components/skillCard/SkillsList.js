@@ -32,6 +32,12 @@ const skills = [
     image: "./images/framer.png",
     rating: 3.5,
   },
+
+{
+    name: "firebase",
+    image: "./images/firebase.png",
+    rating: 3,
+  },
 ];
 const SkillsList = () => {
   return (
