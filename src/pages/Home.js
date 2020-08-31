@@ -6,7 +6,9 @@ import Image2 from "../images/BLACK_II_desktop-1.jpg";
 import Image3 from "../images/PSX_20200630_181754.jpg";
 import Footer from "../components/footer/Footer";
 import Fade from "react-reveal/Fade";
+
 import Jump from "react-reveal/Jump";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -37,7 +39,11 @@ const Home = () => {
         <h1>
           We collaborate with creatives, to bring unique ideas into production
         </h1>
+          <Link to="/about" className="seeMoreLink">
+            see more
+          </Link>
       </div>
+
       <Footer />
     </div>
   );

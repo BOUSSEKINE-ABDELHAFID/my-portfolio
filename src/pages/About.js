@@ -2,7 +2,7 @@ import React from "react";
 import Image from "../images/me-removebg-preview.png";
 import Footer from "../components/footer/Footer";
 import NavBar from "../components/navBar/NavBar";
-import Zoom from "react-reveal/Zoom";
+
 
 const About = () => {
   return (
@@ -10,9 +10,9 @@ const About = () => {
       <NavBar />
       <div className="aboutContent">
         <h1>About ?</h1>
-        <Zoom>
+       
           <img src={Image} alt="" />
-        </Zoom>
+      
 
         <p>
           My name is Abdelhafid BOUSSEKINE , i am an algerian of 20. I am

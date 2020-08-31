@@ -88,6 +88,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .h1Container h1 {
@@ -95,6 +96,20 @@
   margin: 0 10%;
   font-size: 4rem;
 }
+
+
+.seeMoreLink{
+  margin-top: 5vh;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 1rem 7rem;
+  background-color: #00f3f3;
+  border-radius: 25px;
+}
+
+
+
 
 .about {
   color: white;
